@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Taken from goonstation at https://github.com/goonstation/goonstation/blob/master/icons/obj/clothing/item_hats.dmi https://github.com/goonstation/goonstation/blob/master/icons/mob/clothing/head.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon-tan"
+    },
+    {
+      "name": "equipped-HELMET",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-black",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-blue",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-brown",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-red",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-tan",
+      "directions": 4
+    },
+    {
+      "name": "icon"
+    },
+    {
+      "name": "icon-black"
+    },
+    {
+      "name": "icon-blue"
+    },
+    {
+      "name": "icon-brown"
+    },
+    {
+      "name": "icon-red"
+    }
+  ]
+}

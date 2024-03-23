@@ -1,0 +1,13 @@
+- type: constructionGraph
+  id: BandanaGraph
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: bandananode
+          steps:
+            - material: Cloth
+              amount: 1
+              doAfter: 5
+    - node: bandananode
+      entity: ClothingHeadBandana

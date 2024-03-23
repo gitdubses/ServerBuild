@@ -13,3 +13,242 @@
       coefficients:
         Blunt: 0.95
         Heat: 0.95
+
+- type: entity
+  parent: HatBase
+  id: ClothingHeadHatDrinkHat
+  name: каска с банками
+  description: Пить из банки? ПРОШЛЫЙ ВЕК!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+       drink:
+         maxVol: 60
+  - type: Drink
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/drinkhat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/drinkhat.rsi
+  - type: Spillable
+    solution: drink
+  - type: DrawableSolution
+    solution: drink
+  - type: RefillableSolution
+    solution: drink
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCaptainFancy
+  name: шляпа наполеона
+  description: Зачем нужна треуголка? Она же совсем не удобная.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/captain_fancy.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/captain_fancy.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCaptainRank
+  name: изысканная шляпа наполеона
+  description: Томонес те дулева, жю ни те, нот из ю.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/rank_fancy.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/rank_fancy.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWestHat
+  name: шляпа дикого запада
+  description: Стоять ковбой!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWestHatBlack
+  name: чёрная шляпа дикого запада
+  description: Злодеи не носят такие шляпы!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    state: icon-black
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-black
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWestHatBlue
+  name: синия шляпа дикого запада
+  description: Что может быть лучше синей шляпы?
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    state: icon-blue
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-blue
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWestHatBrown
+  name: коричневая шляпа дикого запада
+  description: Шляпа от которой прям и веет диким западом!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    state: icon-brown
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-brown
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWestHatRed
+  name: красная шляпа дикого запада
+  description: Красный цвет не будет лишним!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    state: icon-red
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-red
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWestHatTan
+  name: загарная шляпа дикого запада
+  description: Полящее солнце не будет проблемой с таким прекрасным цветом.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    state: icon-tan
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/westhat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-tan
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCrown
+  name: корона
+  description: Почувствуй себя королевской особой.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/crown.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/crown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFrog
+  name: лягушачая шапка
+  description: Прыг-скок!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/froghat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/froghat.rsi
+  - type: EmitSoundOnCollide
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToySqueak
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDevil
+  name: рога дьяволёнка
+  description: Чёртов дьявол.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/devil.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/devil.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlueElephant
+  name: шапка синего слона
+  description: Наш слоняра.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/elephant_blue.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/elephant_blue.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGoldElephant
+  name: шапка золотого слона
+  description: Дорого Богато.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/elephant_gold.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/elephant_gold.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGreenElephant
+  name: шапка зелёного слона
+  description: Прекрасная шапка зелёного слона.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/elephant_green.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/elephant_green.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPinkElephant
+  name: шапка розового слона
+  description: Наш розовый слоняра.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/elephant_pink.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/elephant_pink.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSunhatBlue
+  name: синяя шляпа от солнца
+  description: Шляпа которая защитит от солнечных лучей.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/sunhatb.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/sunhatb.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatMachoHat
+  name: повязка мачо
+  description: Носителю такой повязки следует только позавидовать.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/machohat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/machohat.rsi

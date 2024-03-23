@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatMario
+  name: кепка марио
+  description: Юху!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/mario.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/mario.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatLuigi
+  name: кепка луиджи
+  description: Хе!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/luigi.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/luigi.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWario
+  name: кепка варио
+  description: Ахье!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/wario.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/wario.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWaluigi
+  name: кепка валуиджи
+  description: Ва!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/waluigi.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/waluigi.rsi

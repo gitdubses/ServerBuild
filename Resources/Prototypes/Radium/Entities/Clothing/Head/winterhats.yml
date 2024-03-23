@@ -1,0 +1,27 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWinter
+  name: зимняя шапка с помпоном
+  description: Готова согреть вашу голову и уши.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/winterhat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/winterhat.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.90
+
+- type: entity
+  parent: ClothingHeadHatWinter
+  id: ClothingHeadHatBlueWinter
+  name: синяя зимняя шапка с помпоном
+  description: Даёт цветовое разнообразие к обычной зимней шапки.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/bluewinterhat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/bluewinterhat.rsi

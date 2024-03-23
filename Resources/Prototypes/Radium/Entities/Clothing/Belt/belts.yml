@@ -1,0 +1,77 @@
+- type: entity
+  parent: ClothingBeltBase
+  name: надувной круг
+  description: Спасёт любого затонувшего в воде, но не в космосе..
+  id: ClothingBeltPoolRing
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Belt/poolring.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Belt/poolring.rsi
+    quickEquip: true
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+
+- type: entity
+  parent: ClothingBeltPoolRing
+  name: надувной круг "Уточка"
+  description: Уточки!
+  id: ClothingBeltPoolRingDuck
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Belt/poolring.rsi
+    state: icon-duck
+  - type: Clothing
+    sprite: Radium/Clothing/Belt/poolring.rsi
+    clothingVisuals:
+      belt:
+      - state: equipped-BELT-duck
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Items/Toys/quack.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/quack.ogg
+
+- type: entity
+  parent: ClothingBeltPoolRing
+  id: ClothingBeltPoolRingFlamingo
+  name: надувной круг "Фламинго"
+  description: Фламинчики!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Belt/poolring.rsi
+    state: icon-flamingo
+  - type: Clothing
+    sprite: Radium/Clothing/Belt/poolring.rsi
+    clothingVisuals:
+      belt:
+      - state: equipped-BELT-flamingo
+  - type: EmitSoundOnCollide
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToySqueak
+
+- type: entity
+  parent: ClothingBeltPoolRing
+  id: ClothingBeltPoolRingGiraffe
+  name: надувной круг "Жирафик"
+  description: Жирафики!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Belt/poolring.rsi
+    state: icon-giraffe
+  - type: Clothing
+    sprite: Radium/Clothing/Belt/poolring.rsi
+    clothingVisuals:
+      belt:
+      - state: equipped-BELT-giraffe
+  - type: EmitSoundOnCollide
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToySqueak

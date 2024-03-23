@@ -1,0 +1,28 @@
+- type: entity
+  parent: [ClothingHeadBase, ClothingHeadBaseButcherable]
+  name: спортивная повязка
+  description: Вёселая пробежка с автоматом!
+  id: ClothingHeadBandana
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/bandana.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/bandana.rsi
+  - type: Construction
+    graph: BandanaGraph
+    node: bandananode
+
+- type: entity
+  parent: ClothingHeadBandana
+  name: спортивная красная повязка
+  description: Почувствуй себя Рэмбо!
+  id: ClothingHeadBandanaRed
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/bandana.rsi
+    state: icon-red
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/bandana.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-red

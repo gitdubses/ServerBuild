@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Taken from goonstation at https://github.com/goonstation/goonstation/blob/21f549f15f43fa7b421b02aaafaeeff5b7fdf193/icons/obj/items/belts.dmi https://github.com/goonstation/goonstation/blob/master/icons/mob/clothing/belt.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "equipped-BELT-giraffe",
+      "directions": 4
+    },
+    {
+      "name": "equipped-BELT",
+      "directions": 4
+    },
+    {
+      "name": "equipped-BELT-duck",
+      "directions": 4
+    },
+    {
+      "name": "equipped-BELT-flamingo",
+      "directions": 4
+    },
+    {
+      "name": "icon-flamingo"
+    },
+    {
+      "name": "icon-giraffe"
+    },
+    {
+      "name": "icon"
+    },
+    {
+      "name": "icon-duck"
+    }
+  ]
+}

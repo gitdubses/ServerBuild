@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Taken from goonstation at https://github.com/goonstation/goonstation/blob/master/icons/obj/clothing/item_hats.dmi https://github.com/goonstation/goonstation/blob/master/icons/mob/clothing/head.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "equipped-HELMET",
+      "directions": 4
+    },
+    {
+      "name": "icon"
+    },
+    {
+      "name": "icon_flipped"
+    },
+    {
+      "name": "flipped-equipped-HELMET",
+      "directions": 4
+    }
+  ]
+}

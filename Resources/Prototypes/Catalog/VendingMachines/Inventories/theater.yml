@@ -53,6 +53,19 @@
     ClothingShoesBootsCowboyBrown: 1
     ClothingShoesBootsCowboyBlack: 1
     ClothingShoesBootsCowboyWhite: 1
+    ClothingHeadHatWestHat: 1 # Radium
+    ClothingHeadHatWestHatBlack: 1 # Radium
+    ClothingHeadHatWestHatBlue: 1 # Radium
+    ClothingHeadHatWestHatBrown: 1 # Radium
+    ClothingHeadHatWestHatRed: 1 # Radium
+    ClothingHeadHatWestHatTan: 1 # Radium
+    ClothingHeadHatCaptainFancy: 1 # Radium
+    ClothingHeadHatCrown: 1 # Radium
+    ClothingBeltPoolRing: 2 # Radium
+    ClothingHeadBandanaRed: 2  # Radium
+    ClothingHeadHatDrinkHat: 2 # Radium
+    ClothingHeadHatDevil: 2 # Radium
+    ClothingHeadHatMachoHat: 2 # Radium
   emaggedInventory:
     ClothingShoesBling: 1
     ClothingShoesBootsCowboyFancy: 1

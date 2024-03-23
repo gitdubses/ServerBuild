@@ -304,7 +304,19 @@
       - id: BeachBall
       - id: RubberPig
       - id: ClothingShoesSkates
-      - id: HonkplantSeeds
+      - id: HonkplantSeeds # Radium
+      - id: ClothingHeadHatMario # Radium
+      - id: ClothingHeadHatLuigi # Radium
+      - id: ClothingHeadHatWario # Radium
+      - id: ClothingHeadHatWaluigi # Radium
+      - id: ClothingHeadHatFrog # Radium
+      - id: ClothingHeadHatBlueElephant # Radium
+      - id: ClothingHeadHatGoldElephant # Radium
+      - id: ClothingHeadHatGreenElephant # Radium
+      - id: ClothingHeadHatPinkElephant # Radium
+      - id: ClothingBeltPoolRingDuck # Radium
+      - id: ClothingBeltPoolRingFlamingo # Radium
+      - id: ClothingBeltPoolRingGiraffe # Radium
 
 - type: entity
   id: CrateFunBikeHornImplants

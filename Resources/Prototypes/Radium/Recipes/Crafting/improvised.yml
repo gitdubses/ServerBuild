@@ -1,0 +1,12 @@
+- type: construction
+  name: bandana
+  id: BandanaCraft
+  graph: BandanaGraph
+  startNode: start
+  targetNode: bandananode
+  category: construction-category-clothing
+  description: Feel like a rambo!
+  icon:
+    sprite: Radium/Clothing/Head/Hats/bandana.rsi
+    state: icon
+  objectType: Item

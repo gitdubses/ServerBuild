@@ -1,0 +1,127 @@
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftBlackCap
+  name: чёрная бейсболка
+  description: Бейсболка чёрного цвета.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/blackcap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/blackcap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftBlackCap]
+  id: ClothingHeadHatSoftBlackCapFlipped
+  name: чёрная бейсболка
+
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftWhiteCap
+  name: белая бейсболка
+  description: Бейсболка белого цвета.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/whitecap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/whitecap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftWhiteCap]
+  id: ClothingHeadHatSoftWhiteCapFlipped
+  name: белая бейсболка
+
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftRedCap
+  name: красная бейсболка
+  description: Бейсболка красного цвета.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/redcap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/redcap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftRedCap]
+  id: ClothingHeadHatSoftRedCapFlipped
+  name: красная бейсболка
+
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftBlueCap
+  name: синяя бейсболка
+  description: Бейсболка синего цвета.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/bluecap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/bluecap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftBlueCap]
+  id: ClothingHeadHatSoftBlueCapFlipped
+  name: синяя бейсболка
+
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftGreenCap
+  name: зелёная бейсболка
+  description: Бейсболка зелёного цвета.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/greencap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/greencap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftGreenCap]
+  id: ClothingHeadHatSoftGreenCapFlipped
+  name: зелёная бейсболка
+
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftYellowCap
+  name: жёлтая бейсболка
+  description: Бесболка жёлтого цвета
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/yellowcap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/yellowcap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftYellowCap]
+  id: ClothingHeadHatSoftYellowCapFlipped
+  name: жёлтая бейсболка
+
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftPurpleCap
+  name: фиолетовая бейсболка
+  description: Бейсболка фиолетового цвета.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/purplecap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/purplecap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftPurpleCap]
+  id: ClothingHeadHatSoftPurpleCapFlipped
+  name: фиолетовая бейсболка
+
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatSoftPinkCap
+  name: розовая бейсболка
+  description: Бейсболка розового цвета.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Soft/pinkcap.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Soft/pinkcap.rsi
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSoftPinkCap]
+  id: ClothingHeadHatSoftPinkCapFlipped
+  name: розовая бейсболка

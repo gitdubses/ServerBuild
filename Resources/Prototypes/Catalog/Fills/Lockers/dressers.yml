@@ -13,6 +13,7 @@
       - id: ClothingUniformJumpskirtCapFormalDress
       - id: ClothingHandsGlovesCaptain
       - id: ClothingNeckMantleCap
+      - id: ClothingHeadHatCaptainRank
 
 - type: entity
   id: DresserChiefEngineerFilled
