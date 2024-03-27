@@ -71,14 +71,25 @@
     ClothingHeadHatBlacksoft: 2
     ClothingHeadHatPurplesoft: 2
     ClothingHeadHatCorpsoft: 2
-    ClothingHeadHatSoftBlackCap: 2
-    ClothingHeadHatSoftWhiteCap: 2
-    ClothingHeadHatSoftRedCap: 2
-    ClothingHeadHatSoftBlueCap: 2
-    ClothingHeadHatSoftGreenCap: 2
-    ClothingHeadHatSoftYellowCap: 2
-    ClothingHeadHatSoftPurpleCap: 2
-    ClothingHeadHatSoftPinkCap: 2
+    ClothingHeadHatSoftBlackCap: 2 # Radium
+    ClothingHeadHatSoftWhiteCap: 2 # Radium
+    ClothingHeadHatSoftRedCap: 2 # Radium
+    ClothingHeadHatSoftBlueCap: 2 # Radium
+    ClothingHeadHatSoftGreenCap: 2 # Radium
+    ClothingHeadHatSoftYellowCap: 2 # Radium
+    ClothingHeadHatSoftPurpleCap: 2 # Radium
+    ClothingHeadHatSoftPinkCap: 2 # Radium
+    ClothingNeckHBowBase: 1 # Radium
+    ClothingNeckHBowWhite: 1 # Radium
+    ClothingNeckHBowShinyBlack: 1 # Radium
+    ClothingNeckHBowRed: 1 # Radium
+    ClothingNeckHBowPurple: 1 # Radium
+    ClothingNeckHBowPink: 1 # Radium
+    ClothingNeckHBowNavy: 1 # Radium
+    ClothingNeckHBowMint: 1 # Radium
+    ClothingNeckHBowMagenta: 1 # Radium
+    ClothingNeckHBowGreen: 1 # Radium
+    ClothingNeckHBowBlue: 1 # Radium
     ClothingHeadFishCap: 2
     ClothingHeadRastaHat: 2
     ClothingBeltStorageWaistbag: 3

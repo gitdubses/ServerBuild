@@ -60,13 +60,17 @@
     ClothingHeadHatWestHatBrown: 1 # Radium
     ClothingHeadHatWestHatRed: 1 # Radium
     ClothingHeadHatWestHatTan: 1 # Radium
-    ClothingHeadHatCaptainFancy: 1 # Radium
     ClothingHeadHatCrown: 1 # Radium
     ClothingBeltPoolRing: 2 # Radium
     ClothingHeadBandanaRed: 2  # Radium
     ClothingHeadHatDrinkHat: 2 # Radium
     ClothingHeadHatDevil: 2 # Radium
     ClothingHeadHatMachoHat: 2 # Radium
+    ClothingHeadHatAxe: 1 # Radium
+    ClothingHeadHatAviator: 2 # Radium
+    ClothingHeadHatClownWinter: 1 # Radium
+    ClothingHeadHatClownAutumn: 1 # Radium
+    ClothingHeadHatBatcowl: 1 # Radium
   emaggedInventory:
     ClothingShoesBling: 1
     ClothingShoesBootsCowboyFancy: 1
@@ -74,3 +78,4 @@
     ClothingMaskSexyClown: 1
     ClothingMaskSexyMime: 1
     ClothingHeadHatCowboyBountyHunter: 1
+    ClothingHeadHatCaptainFancy: 1 # Radium

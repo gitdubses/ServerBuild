@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from goonstation at https://github.com/goonstation/goonstation/blob/master/icons/obj/clothing/item_hats.dmi https://github.com/goonstation/goonstation/blob/master/icons/mob/clothing/head.dmi | modified by lopata123 | discord: ogr8314",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon-hbow-magenta"
+    },
+    {
+      "name": "icon-hbow-pink"
+    },
+    {
+      "name": "icon-hbow-red"
+    },
+    {
+      "name": "icon-hbow-gold"
+    },
+    {
+      "name": "icon-hbow-green"
+    },
+    {
+      "name": "icon-hbow-mint"
+    },
+    {
+      "name": "icon-hbow-blue"
+    },
+    {
+      "name": "icon-hbow-navy"
+    },
+    {
+      "name": "icon-hbow-purple"
+    },
+    {
+      "name": "icon-hbow-shinyblack"
+    },
+    {
+      "name": "icon-hbow-matteblack"
+    },
+    {
+      "name": "icon-hbow-white"
+    },
+    {
+      "name": "icon-hbow-rainbow"
+    },
+    {
+      "name": "icon-hbow-yellowpolkadot"
+    },
+    {
+      "name": "equipped-HELMET-black",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-blue",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-gold",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-green",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-magenta",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-mint",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-navy",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-pink",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-purple",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-rainbow",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-red",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-shinyblack",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-white",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-yellowpolkadot",
+      "directions": 4
+    }
+  ]
+}

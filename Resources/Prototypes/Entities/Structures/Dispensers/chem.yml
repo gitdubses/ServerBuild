@@ -13,6 +13,7 @@
     storageWhitelist:
       tags:
       - ChemDispensable
+      - DrinkBottle
     pack: ChemDispenserStandardInventory
   - type: ApcPowerReceiver
   - type: ExtensionCableReceiver

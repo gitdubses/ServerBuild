@@ -313,11 +313,15 @@
       - id: ClothingHeadHatFrog # Radium
       - id: ClothingHeadHatBlueElephant # Radium
       - id: ClothingHeadHatGoldElephant # Radium
+        prob: 0.10
       - id: ClothingHeadHatGreenElephant # Radium
       - id: ClothingHeadHatPinkElephant # Radium
       - id: ClothingBeltPoolRingDuck # Radium
       - id: ClothingBeltPoolRingFlamingo # Radium
       - id: ClothingBeltPoolRingGiraffe # Radium
+      - id: ClothingNeckHBowYellowPolkaDot # Radium
+        prob: 0.60
+      - id: ClothingNeckHBowRainbow # Radium
       - id: ClothingHeadHatTop # Radium
         prob: 0.30
       - id: ClothingHeadHatTopXXL # Radium

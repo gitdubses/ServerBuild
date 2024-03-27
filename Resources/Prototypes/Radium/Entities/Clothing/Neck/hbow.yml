@@ -1,0 +1,215 @@
+﻿- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckHBowBase
+  name: чёрный галстук бабочка
+  description: Почувствуй себя как джеймс бонд!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-matteblack
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-black
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowWhite
+  name: белый галстук бабочка
+  description: Белый галстук бабочка, хорошо дополняет твой белый вид.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-white
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-white
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowShinyBlack
+  name: блестящий-чёрный галстук бабочка
+  description: Блестящий-чёрный галстук бабочка, будет хорошим твоим другом, в случае сочетания цвета галстук бабочки с твоей одеждой.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-shinyblack
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-shinyblack
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowYellowPolkaDot
+  name: гипардовый галстук бабочка
+  description: Гипардовый галстук бабочка, кто-то просил читос?
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-yellowpolkadot
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-yellowpolkadot
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowRed
+  name: красный галстук бабочка
+  description: Красный галстук бабочка, хорошо подойдет к свиданию или к клоуну.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-red
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-red
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowRainbow
+  name: радужный галстук бабочка
+  description: Радужный галстук бабочка, замечательная вещь для клоуна!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-rainbow
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-rainbow
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowPurple
+  name: фиолетовый галстук бабочка
+  description: Фиолетовый галстук бабочка, даёт почувствовать фиолетовый цвет.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-purple
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-purple
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowPink
+  name: розовый галстук бабочка
+  description: Розовый галстук бабочка, даёт почувствовать розовый цвет.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-pink
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-pink
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowNavy
+  name: чёрно-синий галстук бабочка
+  description: Чёрно-синий галстук бабочка, даёт почувствовать чёрно-синий цвет.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-navy
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-navy
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowMint
+  name: мятный галстук бабочка
+  description: Мятный галстук бабочка, даёт почувствовать мятный вкус.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-mint
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-mint
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowMagenta
+  name: пурпурный галстук бабочка
+  description: Пурпурный галстук бабочка, даёт почувствовать пурпурный цвет.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-magenta
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-magenta
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowGreen
+  name: зелёный галстук бабочка
+  description: Зелёный галстук бабочка, даёт почувствовать зелёный цвет.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-green
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-green
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowGold
+  name: золотой галстук бабочка
+  description: Истинная вещь аристократов и богачей.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-gold
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-gold
+  - type: StaticPrice
+    price: 500
+
+- type: entity
+  parent: ClothingNeckHBowBase
+  id: ClothingNeckHBowBlue
+  name: синий галстук бабочка
+  description: Синий галстук бабочка, даёт почувствовать синий цвет.
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    state: icon-hbow-blue
+  - type: Clothing
+    sprite: Radium/Clothing/Neck/Bow/hbow.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-HELMET-blue

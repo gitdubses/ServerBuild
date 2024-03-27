@@ -1,0 +1,41 @@
+﻿- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWizardGreen
+  name: зелёная мантия волшебника
+  description: Шазам!
+  components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-wizardgreen
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/wizard.rsi
+    state: icon-green
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/wizard.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-green
+        offset: "0, 0.31"
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWizardnec
+  name: мантия страшного волшебника
+  description: Выглядит как смерть и готов вас гибнуть в любую секунду!
+  components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-wizardnec
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/wizard.rsi
+    state: icon-nec
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/wizard.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET-nec
+        offset: "0, 0.31"
+  - type: Tag
+    tags:
+    - HidesHair
+

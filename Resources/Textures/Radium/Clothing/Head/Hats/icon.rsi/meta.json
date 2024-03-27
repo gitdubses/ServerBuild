@@ -1,0 +1,35 @@
+﻿{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from goonstation at https://github.com/goonstation/goonstation/blob/master/icons/obj/clothing/item_hats.dmi https://github.com/goonstation/goonstation/blob/master/icons/mob/clothing/head.dmi",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon-axehat"
+        },
+        {
+            "name": "icon-batcowl"
+        },
+        {
+            "name": "icon-clownwinterhat"
+        },
+        {
+            "name": "icon-rank-fancy"
+        },
+        {
+            "name": "icon-captain-fancy"
+        },
+        {
+            "name": "icon-clownautumnhat"
+        },
+        {
+            "name": "icon-wizardnec"
+        },
+        {
+            "name": "icon-wizardgreen"
+        }
+    ]
+}

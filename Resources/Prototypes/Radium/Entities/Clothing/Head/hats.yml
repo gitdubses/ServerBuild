@@ -46,10 +46,18 @@
   name: шляпа наполеона
   description: Зачем нужна треуголка? Она же совсем не удобная.
   components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-captain-fancy
   - type: Sprite
     sprite: Radium/Clothing/Head/Hats/captain_fancy.rsi
   - type: Clothing
     sprite: Radium/Clothing/Head/Hats/captain_fancy.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.31"
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -57,10 +65,18 @@
   name: изысканная шляпа наполеона
   description: Томонес те дулева, жю ни те, нот из ю.
   components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-rank-fancy
   - type: Sprite
     sprite: Radium/Clothing/Head/Hats/rank_fancy.rsi
   - type: Clothing
     sprite: Radium/Clothing/Head/Hats/rank_fancy.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.31"
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -202,12 +218,14 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatGoldElephant
   name: шапка золотого слона
-  description: Дорого Богато.
+  description: Дорого, богато.
   components:
   - type: Sprite
     sprite: Radium/Clothing/Head/Hats/elephant_gold.rsi
   - type: Clothing
     sprite: Radium/Clothing/Head/Hats/elephant_gold.rsi
+  - type: StaticPrice
+    price: 1500
 
 - type: entity
   parent: ClothingHeadBase
@@ -252,3 +270,81 @@
     sprite: Radium/Clothing/Head/Hats/machohat.rsi
   - type: Clothing
     sprite: Radium/Clothing/Head/Hats/machohat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatClownWinter
+  name: клоунская зимняя шляпа
+  description: Тёплая, зимняя, а самое главное клоунская.
+  components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-clownwinterhat
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/clownwinterhat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/clownwinterhat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.31"
+  - type: TemperatureProtection
+    coefficient: 0.1
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.90
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBatcowl
+  name: бэтмен
+  description: Готэм слишком прогнил..
+  components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-batcowl
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/batcowl.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/batcowl.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.31"
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatAxe
+  name: топор
+  description: Выглядит страшно и очень кроваво!
+  components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-axehat
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/axehat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/axehat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.31"
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatClownAutumn
+  name: клоунская весеняя шляпа
+  description: Когда листья начинают становиться оранжевыми и опадать, клоун надевает эту прекрасную шапку.
+  components:
+  - type: Icon
+    sprite: Radium/Clothing/Head/Hats/icon.rsi
+    state: icon-clownautumnhat
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/clown_autumn-hat.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/clown_autumn-hat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.31"

@@ -1,0 +1,52 @@
+﻿- type: entity
+  parent: [ClothingHeadBaseButcherable, BaseFoldable]
+  id: ClothingHeadBaseAviator
+  abstract: true
+  components:
+  - type: Appearance
+  - type: Foldable
+    canFoldInsideContainer: true
+    unfoldVerbText: Снять очки
+    foldVerbText: Надеть очки
+  - type: FoldableClothing
+    foldedEquippedPrefix: alt
+    foldedHeldPrefix: alt
+  - type: Sprite
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon_alt
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: ClothingHeadBaseAviator
+  id: ClothingHeadHeadHatBaseAviatorAlt
+  suffix: Надеты
+  abstract: true
+  components:
+  - type: Foldable
+    folded: true
+  - type: Clothing
+    equippedPrefix: alt
+  - type: Item
+    heldPrefix: alt
+  - type: Sprite
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+      visible: false
+    - state: icon_alt
+      map: ["foldedLayer"]
+      visible: true
+
+- type: entity
+  parent: ClothingHeadBaseAviator
+  id: ClothingHeadHatAviator
+  name: авиаторы
+  description: Любые лётчики бы хотели такие авиаторы в 3024 году!
+  components:
+  - type: Sprite
+    sprite: Radium/Clothing/Head/Hats/aviator.rsi
+  - type: Clothing
+    sprite: Radium/Clothing/Head/Hats/aviator.rsi
