@@ -18,8 +18,7 @@
   description: A starter kit for the aspiring chemist, includes toxin and vestine for all your criminal needs!
   components:
   - type: Storage
-    grid:
-    - 0,0,3,2
+    maxSlots: 12
   - type: StorageFill
     contents:
       - id: Beaker
@@ -31,17 +30,3 @@
         amount: 2
       - id: BaseChemistryEmptyVial
       - id: SyringeStimulants
-
-- type: entity
-  id: Observationskit
-  parent: BoxCardboard
-  name: observations kit
-  suffix: Filled
-  components:
-    - type: StorageFill
-      contents:
-        - id: ClothingEyesGlassesHiddenSecurity
-          amount: 1
-        - id: SurveillanceCameraMonitorCircuitboard
-          amount: 1
-

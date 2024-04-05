@@ -18,7 +18,7 @@
   - type: Item
     size: Ginormous
   - type: Storage
-    maxItemSize: Huge
+    maxSlots: 6
   - type: StorageFill
     contents:
       - id: WeaponSniperHristov
@@ -26,6 +26,7 @@
       - id: ClothingNeckTieRed
       - id: ClothingHandsGlovesLatex
       - id: ClothingUniformJumpsuitLawyerBlack
+      - id: BarberScissors
 
 - type: entity
   id: BriefcaseSyndieLobbyingBundleFilled

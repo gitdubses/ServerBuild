@@ -7,7 +7,7 @@
   - type: Item
     size: Large
   - type: Storage
-    maxItemSize: Large
+    maxItemSize: Small
     maxTotalWeight: 24
   - type: Sprite
     state: box
@@ -42,13 +42,10 @@
       - state: box
       - state: light
   - type: Storage
-    maxTotalWeight: 24
+    maxSlots: 12
     whitelist:
       components:
       - LightBulb
-  - type: Tag
-    tags:
-      - DroneUsable
 
 - type: entity
   name: lighttube box
@@ -65,13 +62,10 @@
       - state: box
       - state: lighttube
   - type: Storage
-    maxTotalWeight: 24
+    maxSlots: 12
     whitelist:
       components:
       - LightBulb
-  - type: Tag
-    tags:
-      - DroneUsable
 
 - type: entity
   name: mixed lights box
@@ -90,13 +84,11 @@
       - state: box
       - state: lightmixed
   - type: Storage
+    maxItemSize: Normal
     maxTotalWeight: 24
     whitelist:
       components:
       - LightBulb
-  - type: Tag
-    tags:
-      - DroneUsable
 
 - type: entity
   name: PDA box
@@ -176,24 +168,14 @@
       - state: writing
 
 - type: entity
-  name: box of hugs
-  parent: BoxCardboard
+  parent: BoxHug
   id: BoxHugHealing
-  description: A special box for sensitive people.
+  suffix: Medical
   components:
-  - type: Sprite
-    layers:
-      - state: box_hug
-      - state: heart
-  - type: Item
-    heldPrefix: hug
   - type: StorageFill
     contents:
       - id: Brutepack
         amount: 3
-  - type: Tag
-    tags:
-      - BoxHug
 
 - type: entity
   name: inflatable wall box
@@ -211,9 +193,6 @@
     layers:
       - state: box
       - state: inflatable
-  - type: Tag
-    tags:
-      - DroneUsable
 
 
 - type: entity
@@ -256,7 +235,7 @@
         amount: 6
   - type: Storage
     maxTotalWeight: 48
-    maxItemSize: Huge
+    maxItemSize: Large
     whitelist:
       tags:
         - TrashBag
@@ -264,9 +243,6 @@
     layers:
       - state: box
       - state: trashbag
-  - type: Tag
-    tags:
-      - DroneUsable
 
 - type: entity
   name: passenger encryption key box
@@ -388,7 +364,7 @@
   description: Six deathrattle implants and handheld GPS devices for the whole squad.
   components:
   - type: Item
-    size: Large
+    size: Normal
   - type: StorageFill
     contents:
       - id: DeathRattleImplanter
@@ -396,7 +372,7 @@
       - id: HandheldGPSBasic
         amount: 6
   - type: Storage
-    maxTotalWeight: 24
+    maxSlots: 12
   - type: Sprite
     layers:
       - state: box
@@ -424,7 +400,8 @@
       - state: box
       - state: candle
   - type: Storage
-    maxTotalWeight: 30
+    maxItemSize: Normal
+    maxSlots: 15
   - type: StorageFill
     contents:
       - id: Candle
@@ -448,7 +425,8 @@
       - state: box
       - state: candle
   - type: Storage
-    maxTotalWeight: 30
+    maxItemSize: Normal
+    maxSlots: 25
   - type: StorageFill
     contents:
       - id: CandleSmall
@@ -469,7 +447,7 @@
   description: This box filled with colorful darts.
   components:
   - type: Item
-    size: Large
+    size: Normal
   - type: StorageFill
     contents:
       - id: Dart
@@ -481,7 +459,7 @@
       - id: DartYellow
         amount: 3
   - type: Storage
-    maxTotalWeight: 24
+    maxSlots: 12
   - type: Sprite
     layers:
       - state: box

@@ -54,6 +54,17 @@
       - id: MaterialWoodPlank
 
 - type: entity
+  id: CrateMaterialBrass
+  parent: CrateGenericSteel
+  name: brass crate
+  description: 90 sheets of brass.
+  components:
+  - type: StorageFill
+    contents:
+      - id: SheetBrass
+        amount: 3
+
+- type: entity
   id: CrateMaterialPlasteel
   parent: CrateGenericSteel
   name: plasteel crate
@@ -95,16 +106,6 @@
   - type: StorageFill
     contents:
       - id: SheetPaper
-        amount: 3
-#Radium
-- type: entity
-  id: CrateMaterialInk
-  name: Чернила
-  parent: CrateGenericSteel
-  components:
-  - type: StorageFill
-    contents:
-      - id: SheetInk
         amount: 3
 
 #- type: entity

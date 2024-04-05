@@ -289,6 +289,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: SnapPopBox
       - id: CrazyGlue
         amount: 2
       - id: PlasticBanana
@@ -299,11 +300,17 @@
       - id: MrDips
         orGroup: Giftpool
       - id: RevolverCapGun
+      - id: BalloonNT
       - id: ClothingShoesClownLarge
       - id: ClothingHeadHatMagician
       - id: BeachBall
       - id: RubberPig
       - id: ClothingShoesSkates
+      - id: ClothingHeadHatTop # Radium
+        prob: 0.30
+      - id: ClothingHeadHatTopXXL # Radium
+        prob: 0.10
+      - id: HonkplantSeeds # Radium
 
 - type: entity
   id: CrateFunBikeHornImplants

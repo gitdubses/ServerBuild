@@ -1,6 +1,7 @@
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
+using Content.Client.Corvax;
 using Content.Client.Corvax.TTS;
 using Content.Client.Options;
 using Content.Client.Eui;
@@ -23,7 +24,7 @@ using Content.Client.Singularity;
 using Content.Client.Stylesheets;
 using Content.Client.Viewport;
 using Content.Client.Voting;
-using Content.Shared.Ame;
+using Content.Shared.Ame.Components;
 using Content.Shared.Gravity;
 using Content.Shared.Localizations;
 using Robust.Client;
@@ -130,12 +131,12 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("alertLevels");
             _prototypeManager.RegisterIgnore("nukeopsRole");
             _prototypeManager.RegisterIgnore("stationGoal"); // Corvax-StationGoal
-            _prototypeManager.RegisterIgnore("loadout"); // Corvax-Loadout
 
             // Begin Backmen: our ignored prototypes.
             _prototypeManager.RegisterIgnore("npcConversationTree");
             _prototypeManager.RegisterIgnore("shipwreckDestination");
             _prototypeManager.RegisterIgnore("shipwreckFaction");
+            _prototypeManager.RegisterIgnore("loadout");
             // End Backmen.
 
             _componentFactory.GenerateNetIds();
@@ -183,7 +184,7 @@ namespace Content.Client.Entry
             // start-backmen: ioc
             IoCManager.Resolve<Content.Corvax.Interfaces.Client.IClientSponsorsManager>().Initialize();
             IoCManager.Resolve<Content.Corvax.Interfaces.Client.IClientJoinQueueManager>().Initialize();
-            IoCManager.Resolve<Content.Corvax.Interfaces.Client.IClientDiscordAuthManager>().Initialize();
+            IoCManager.Resolve<IClientDiscordAuthManager>().Initialize();
             // end-backmen: ioc
 
             _baseClient.RunLevelChanged += (_, args) =>
